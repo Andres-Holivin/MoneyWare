@@ -1,11 +1,11 @@
 import 'dart:math';
 
 import 'package:flutter/material.dart';
-import 'package:money_management/components/nav_bar.dart';
-import 'package:money_management/main.dart';
-import 'package:money_management/util/constants.dart';
 
 import '../components/header.dart';
+import '../components/nav_bar.dart';
+import '../main.dart';
+import '../util/constants.dart';
 
 class HomePage extends StatefulWidget {
   const HomePage({Key? key}) : super(key: key);

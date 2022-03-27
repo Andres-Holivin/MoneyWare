@@ -1,11 +1,9 @@
-import 'package:auto_route/annotations.dart';
 import 'package:auto_route/auto_route.dart';
 import 'package:flutter/material.dart';
-import 'package:money_management/main.dart';
-import 'package:money_management/pages/transaction_page.dart';
-import 'package:money_management/util/app_router.dart';
-import 'package:money_management/util/app_router.gr.dart';
-import 'package:money_management/util/constants.dart';
+
+import '../main.dart';
+import '../util/app_router.gr.dart';
+import '../util/constants.dart';
 
 bool isDark = MyApp.themeNotifier.value == ThemeMode.light ? false : true;
 const double iconSize = 54.0;

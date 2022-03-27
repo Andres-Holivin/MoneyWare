@@ -1,5 +1,6 @@
 import 'package:flutter/material.dart';
-import 'package:money_management/util/constants.dart';
+
+import 'constants.dart';
 
 ThemeData themeData() {
   return ThemeData(

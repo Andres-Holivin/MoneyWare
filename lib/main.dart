@@ -1,6 +1,5 @@
 import 'package:flutter/material.dart';
-import 'package:money_management/util/app_router.gr.dart';
-import 'package:money_management/util/theme.dart';
+import 'package:money_ware/util/app_router.gr.dart';
 
 void main() {
   runApp(const MyApp());
